@@ -1,0 +1,1157 @@
+[
+  {
+    "ui": "Account Name",
+    "crmLabel": "ATC Account Name",
+    "field": "Account_vod__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Lookup(Account)"
+  },
+  {
+    "ui": "Last Modified Date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "Account_Plan_vod__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "EID",
+    "crmLabel": "ATC EID",
+    "field": "KPH_ATC_EID__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Formula (Text)"
+  },
+  {
+    "ui": "Marketplace",
+    "crmLabel": "Territory Description",
+    "field": "KPH_Territory_Description__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Text(100)"
+  },
+  {
+    "ui": "KAD Owner",
+    "crmLabel": "Owner",
+    "field": "OwnerId",
+    "object": "Account_Plan_vod__c",
+    "type": "Lookup(User,Group)"
+  },
+  {
+    "ui": "Payer Restrictiveness",
+    "crmLabel": "Payer Restrictiveness",
+    "field": "KPH_Payer_Restrictiveness__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Payer Archetype Definition",
+    "crmLabel": "Payer Archetype Definition",
+    "field": "KPH_Payer_Archetype_Definition__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Formula (Text)"
+  },
+  {
+    "ui": "Payer Restrictiveness updated date",
+    "crmLabel": "Payer Restrictiveness updated date",
+    "field": "KPH_Payer_Restrictiveness_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Geographic Footprint",
+    "crmLabel": "Geographic Footprint",
+    "field": "KPH_Geographic_Footprint__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Geographic Footprint updated date",
+    "crmLabel": "Geographic Footprint updated date",
+    "field": "KPH_Geographic_Footprint_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Ownership & Affiliation",
+    "crmLabel": "Ownership & Affiliation",
+    "field": "KPH_Ownership_Affiliation__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Ownership & Affiliation updated date",
+    "crmLabel": "Ownership & Affiliation updated date",
+    "field": "KPH_Ownership_Affiliation_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Covered Lives",
+    "crmLabel": "Covered Lives",
+    "field": "KPH_Covered_Lives__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Covered Lives updated date",
+    "crmLabel": "Covered Lives updated date",
+    "field": "KPH_Covered_Lives_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Lines of Business",
+    "crmLabel": "Lines of Business",
+    "field": "KPH_Lines_of_Business__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Lines of Business updated date",
+    "crmLabel": "Lines of Business updated date",
+    "field": "KPH_Lines_of_Business_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Key Wins Created Date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Key Wins Updated Date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Key Wins Date",
+    "crmLabel": "Key Wins Date",
+    "field": "KPH_Key_Wins_Date__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Key Wins Description",
+    "crmLabel": "Key Wins Description",
+    "field": "KPH_Key_Wins_Description__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Key Wins Impact",
+    "crmLabel": "Key Wins Impact",
+    "field": "KPH_Key_Wins_Impact__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Key customer asks date created",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Key customer asks date updated",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Key customer asks stakeholder name",
+    "crmLabel": "Key customer asks stakeholder name",
+    "field": "KPH_Key_Customer_Asks_Stakeholder_Name__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Text(100)"
+  },
+  {
+    "ui": "Key customer asks role",
+    "crmLabel": "Key customer asks role",
+    "field": "KPH_Key_Customer_Asks_Role__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Text(100)"
+  },
+  {
+    "ui": "Account Plan",
+    "crmLabel": "Account Plan",
+    "field": "KPH_Account_Plan__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Lookup(Account Plan)"
+  },
+  {
+    "ui": "Key customer asks description",
+    "crmLabel": "Key customer asks description",
+    "field": "KPH_Key_Customer_Asks_Description__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Site Inclusion Criteria Notes",
+    "crmLabel": "Site Inclusion Criteria Notes",
+    "field": "KPH_Site_Inclusion_Criteria_Notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Decision making bodies Notes",
+    "crmLabel": "Decision making bodies Notes",
+    "field": "KPH_Decision_making_bodies_Notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "CAR-T Reimbursement notes",
+    "crmLabel": "CAR-T Reimbursement notes",
+    "field": "KPH_CAR_T_Reimbursement_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "CAR-T Reimbursement notes updated date",
+    "crmLabel": "CAR-T Reimbursement notes updated date",
+    "field": "KPH_CAR_T_Reimbursement_notes_updt_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "CAR-T Pathway notes",
+    "crmLabel": "CAR-T Pathway notes",
+    "field": "KPH_CAR_T_Pathway_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "CAR-T Pathway notes updated date",
+    "crmLabel": "CAR-T Pathway notes updated date",
+    "field": "KPH_CAR_T_Pathway_notes_updated_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Kite's Products Reimbursement notes",
+    "crmLabel": "Kite's Products Reimbursement notes",
+    "field": "KPH_Kite_s_Products_Reimbursement_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Competitors Reimbursement notes",
+    "crmLabel": "Competitors Reimbursement notes",
+    "field": "KPH_Competitors_Reimbursement_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Competitors Pathway notes",
+    "crmLabel": "Competitors Pathway notes",
+    "field": "KPH_Competitors_Pathway_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Competitors Pathway notes updated date",
+    "crmLabel": "Competitors Pathway notes updated date",
+    "field": "KPH_Competitors_Path_notes_update_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Quality of Access Score",
+    "crmLabel": "Quality of Access Score",
+    "field": "KPH_Quality_of_Access_Score__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Level of CAR T Focus/Expertise Level",
+    "crmLabel": "Level of CAR T Focus/Expertise Level",
+    "field": "KPH_Level_of_CAR_T_Focus_Expertise_Level__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Level of CAR T Focus/Expertise Level updated date",
+    "crmLabel": "CAR T Focus/Expertise Level Updated Date",
+    "field": "KPH_CAR_T_Focus_Expertise_Level_Upd_Date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Level of CAR T Focus/Expertise Comments",
+    "crmLabel": "Level of CAR T Focus/Expertise Comment",
+    "field": "KPH_Lev_of_CAR_T_Focus_Expertise_Comment__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Level of CAR T Focus/Expertise Comments updated date",
+    "crmLabel": "Community Expansion Comment upd Date",
+    "field": "KPH_CAR_T_Focus_Expertise_Comm_Upd_Date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Willingness to Partner with Kite dropdown",
+    "crmLabel": "Willingness to Partner with Kite",
+    "field": "KPH_Willingness_to_Partner_with_Kite__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Willingness to Partner with Kite dropdown updated date",
+    "crmLabel": "Willingness to Partner with Kite Upt Dt",
+    "field": "KPH_Willing_to_Partner_with_Kite_Upt__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Willingness to Partner with Kite notes",
+    "crmLabel": "Willingness to Partner with Kite notes",
+    "field": "KPH_Willing_to_Partner_with_Kite_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Willingness to Partner with Kite notes updated date",
+    "crmLabel": "Willing to Partner with Kite nts upd dte",
+    "field": "KPH_Willing_to_Ptr_with_Kite_notes_upd_d__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Community Expansion position",
+    "crmLabel": "Community Expansion Position",
+    "field": "KPH_Community_Expansion_Position__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Community Expansion position updated date",
+    "crmLabel": "Community Expansion Position Upt dte",
+    "field": "KPH_Community_Expansion_Position_Upt_dte__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Community Expansion\u00a0 comments",
+    "crmLabel": "Community Expansion Comments",
+    "field": "KPH_Community_Expansion_Comments__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Community Expansion comments updated date",
+    "crmLabel": "Community Expansion Comment upd Date",
+    "field": "KPH_Community_Expansion_Comment_upd_Date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Stakeholder Created date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Stakeholder Updated date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Stakeholder Name",
+    "crmLabel": "Name",
+    "field": "KPH_Name__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Text(100)"
+  },
+  {
+    "ui": "Stakeholder Role/Function",
+    "crmLabel": "Stakeholder Role",
+    "field": "KPH_Stakeholder_Role__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Text(100)"
+  },
+  {
+    "ui": "Stakeholder Email",
+    "crmLabel": "Stakeholder Email",
+    "field": "KPH_Stakeholder_Email__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Text(100)"
+  },
+  {
+    "ui": "Stakeholder Decision Areas",
+    "crmLabel": "Stakeholder Decision Areas",
+    "field": "KPH_Stakeholder_Decision_Areas__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Decision Areas Stakeholder Influence",
+    "crmLabel": "Decision Areas Stakeholder Influence",
+    "field": "KPH_Decision_Areas_Stakeholder_Influence__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Stakeholder Relationship Strength",
+    "crmLabel": "Stakeholder Relationship Strength",
+    "field": "KPH_Stakeholder_Relationship_Strength__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Topics & Evidence of Interest Notes",
+    "crmLabel": "Topics & Evidence of Interest Notes",
+    "field": "KPH_Topics_Evidence_of_Interest_Notes__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Barrier Objective",
+    "crmLabel": "Barrier Objective",
+    "field": "KPH_Account_Objective_Barrier__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Lookup(Account Objective)"
+  },
+  {
+    "ui": "Barrier Strategy",
+    "crmLabel": "Barrier Strategy",
+    "field": "KPH_Strategy__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Lookup(Startegy)"
+  },
+  {
+    "ui": "Barrier Impact",
+    "crmLabel": "Barrier Impact",
+    "field": "KPH_Barrier_Impact__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Barrier Title",
+    "crmLabel": "Barrier Title",
+    "field": "KPH_Barrier_Title__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "text 100 char"
+  },
+  {
+    "ui": "Barriers Details",
+    "crmLabel": "Barriers Details",
+    "field": "KPH_Barriers_Details__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Barrier Status",
+    "crmLabel": "Barrier Status",
+    "field": "KPH_Barrier_Status__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Barrier Updated Date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Barrier Created Date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Opportunities Updated Date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Opportunities Created Date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Opportunities Title",
+    "crmLabel": "Opportunities Title",
+    "field": "KPH_Opportunities_Title__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "text 100 char"
+  },
+  {
+    "ui": "Account Plan",
+    "crmLabel": "Account Plan",
+    "field": "KPH_Account_Plan__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Lookup(Account Plan)"
+  },
+  {
+    "ui": "Opportunities Objective",
+    "crmLabel": "Opportunities Objective",
+    "field": "KPH_Opportunities_Objective__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Lookup(Account Objective)"
+  },
+  {
+    "ui": "Opportunities Impact",
+    "crmLabel": "Opportunities Impact",
+    "field": "KPH_Opportunities_Impact__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Opportunities Status",
+    "crmLabel": "Opportunities Status",
+    "field": "KPH_Opportunities_Status__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Opportunities Details",
+    "crmLabel": "Opportunities Details",
+    "field": "KPH_Opportunities_Details__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Payer Value Prop Delivery",
+    "crmLabel": "Payer Value Prop Delivery",
+    "field": "KPH_Payer_Value_Prop_Delivery__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Payer Value Prop Delivery updated date",
+    "crmLabel": "Payer Value Prop Delivery updated date",
+    "field": "KPH_Payer_Value_Prop_Del_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Medical Policy Published updated date",
+    "crmLabel": "Medical Policy Published updated date",
+    "field": "KPH_Medi_Policy_Published_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Medical Policy Published",
+    "crmLabel": "Medical Policy Published",
+    "field": "KPH_Medical_Policy_Published__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Risk Assessment for Delayed Coverage",
+    "crmLabel": "Risk Assessment for Delayed Coverage",
+    "field": "KPH_Risk_Assessment_for_Delayed_Coverage__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Risk Assessment for Delayed Coverage updated date",
+    "crmLabel": "Risk Assessment updated date",
+    "field": "KPH_Risk_Assessment_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Anticipated to Publish Medical Policy",
+    "crmLabel": "Anticipated to Publish Medical Policy",
+    "field": "KPH_Anticipated_Publish_Medical_Policy__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Anticipated to Published Medical Policy updated date",
+    "crmLabel": "Anticipate to Published Medi Policy Date",
+    "field": "Anticipate_to_Published_Medi_Policy_Date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "PIE Delivery Status",
+    "crmLabel": "PIE Delivery Status",
+    "field": "KPH_PIE_Delivery_Status__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "PIE Delivery Status updated date",
+    "crmLabel": "PIE Delivery Status updated date",
+    "field": "KPH_PIE_Delivery_Status_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Policy Notes",
+    "crmLabel": "Policy Context & Launch Insights",
+    "field": "KPH_Policy_Context_Launch_Insights__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Long Text Area(500)"
+  },
+  {
+    "ui": "Policy Notes updated date",
+    "crmLabel": "Policy Notes updated date",
+    "field": "KPH_Policy_Notes_updated_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Drivers for Anito-cel Adoption",
+    "crmLabel": "Drivers for Anito-cel Adoption",
+    "field": "KPH_Drivers_for_Anito_cel_Adoption__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Drivers for Anito-cel Adoption updated date",
+    "crmLabel": "Drivers for Anito-cel Adoption Date",
+    "field": "KPH_Drivers_for_Anito_cel_Adoption_Date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Anticipated Barriers at Launch",
+    "crmLabel": "Anticipated Barriers at Launch",
+    "field": "KPH_Anticipated_Barriers_at_Launch__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Anticipated Barriers at Launch updated date",
+    "crmLabel": "Anticipated Barriers at Launch Date",
+    "field": "KPH_Anticipated_Barriers_at_Launch_Date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Evidence to Support Payer Decision",
+    "crmLabel": "Evidence to Support Payer Decision",
+    "field": "KPH_Evidence_to_Support_Payer_Decision__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Long Text Area(1000)"
+  },
+  {
+    "ui": "Evidence to Support Payer Decision updated date",
+    "crmLabel": "Evidence to Supp Payer Decision Date",
+    "field": "KPH_Evidence_to_Supp_Payer_Decision_Date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Account Objective created date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Account_Objective__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Account Objective",
+    "crmLabel": "Objective 1",
+    "field": "KPH_Objective_1__c",
+    "object": "KPH_Account_Objective__c",
+    "type": "Text(200)"
+  },
+  {
+    "ui": "Account Objective",
+    "crmLabel": "Objective 2",
+    "field": "KPH_Objective_2__c",
+    "object": "KPH_Account_Objective__c",
+    "type": "Text(200)"
+  },
+  {
+    "ui": "Account Objective",
+    "crmLabel": "Objective 3",
+    "field": "KPH_Objective_3__c",
+    "object": "KPH_Account_Objective__c",
+    "type": "Text(200)"
+  },
+  {
+    "ui": "Account Objective updated date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Account_Objective__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Account Objective Status",
+    "crmLabel": "Status",
+    "field": "KPH_Status__c",
+    "object": "KPH_Account_Objective__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Strategy Created Date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Strategy__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Strategy updated date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Strategy__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Strategy Title",
+    "crmLabel": "Strategy Title",
+    "field": "KPH_Strategy_Title__c",
+    "object": "KPH_Strategy__c",
+    "type": "Text(200)"
+  },
+  {
+    "ui": "Startegy link to Objective",
+    "crmLabel": "Account Objective",
+    "field": "KPH_Account_Objective__c",
+    "object": "KPH_Strategy__c",
+    "type": "Lookup(Account Objective)"
+  },
+  {
+    "ui": "Strategy Status",
+    "crmLabel": "Strategy Status",
+    "field": "KPH_Strategy_Status__c",
+    "object": "KPH_Strategy__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Account Plan",
+    "crmLabel": "Account Plan",
+    "field": "KPH_Account_Plan__c",
+    "object": "KPH_Strategy__c",
+    "type": "Lookup(Account Plan)"
+  },
+  {
+    "ui": "Tactic / Resource 1",
+    "crmLabel": "Tactics and Resources Title",
+    "field": "KPH_Tactics_and_Resources_Title__c",
+    "object": "KPH_Tactics_Resource__c",
+    "type": ""
+  },
+  {
+    "ui": "Tactic link to Account Plan",
+    "crmLabel": "Account Plan",
+    "field": "KPH_Account_Plan__c",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Lookup(Account Plan)"
+  },
+  {
+    "ui": "Tactic link to Account Objective",
+    "crmLabel": "Account Objective",
+    "field": "KPH_Account_Objective__c",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Lookup(Account Objective)"
+  },
+  {
+    "ui": "Tactic link to Strategy",
+    "crmLabel": "Strategy",
+    "field": "KPH_Strategy__c",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Lookup(Strategy)"
+  },
+  {
+    "ui": "Tactic Status",
+    "crmLabel": "Tactic Status",
+    "field": "KPH_Tactic_Status__c",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Tactics and Resources Updated Date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Tactics and Resources Created Date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Action and Critical Next Steps Title",
+    "crmLabel": "Action & Critical Next Steps",
+    "field": "KPH_Action_Critical_Next_Steps__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Long Text Area(500)"
+  },
+  {
+    "ui": "Action and Critical Next Steps created date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Action and Critical Next Steps updated date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Linked Strategy",
+    "crmLabel": "Linked Strategy",
+    "field": "KPH_Linked_Strategy__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Customer Stakeholder Name",
+    "crmLabel": "Customer Stakeholder",
+    "field": "KPH_Customer_Stakeholder__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Customer Stakeholder Role",
+    "crmLabel": "Role",
+    "field": "KPH_Role__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Kite Owner (DRI) name",
+    "crmLabel": "Kite Owner (DRI) Name",
+    "field": "KPH_Kite_Owner_DRI_Name__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Kite Owner (DRI) role",
+    "crmLabel": "Kite Owner (DRI) Role",
+    "field": "KPH_Kite_Owner_DRI_Role__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Kite Collaborator name",
+    "crmLabel": "Kite Collaborator Name",
+    "field": "KPH_Kite_Collaborator_Name__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Kite Collaborator role",
+    "crmLabel": "Kite Collaborator Role",
+    "field": "KPH_Kite_Collaborator_Role__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Text(250)"
+  },
+  {
+    "ui": "Timing",
+    "crmLabel": "Timing",
+    "field": "KPH_Timing__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Status",
+    "crmLabel": "Status",
+    "field": "KPH_Status__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Account Plan",
+    "crmLabel": "Account Plan",
+    "field": "KPH_Account_Plan__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Lookup(Account Plan)"
+  },
+  {
+    "ui": "Next Steps",
+    "crmLabel": "Next Steps",
+    "field": "KPH_Next_Steps__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Milestones & Engagements",
+    "crmLabel": "Milestones & Engagements",
+    "field": "KPH_Milestones_Engagements__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Long Text Area(500)"
+  },
+  {
+    "ui": "Milestones & Engagements updated date",
+    "crmLabel": "LastModifiedDate",
+    "field": "LastModifiedDate",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Milestones & Engagements created date",
+    "crmLabel": "CreatedDate",
+    "field": "CreatedDate",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Customer Stakeholder Name",
+    "crmLabel": "Customer Stakeholder Name",
+    "field": "KPH_Customer_Stakeholder_Name__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Text 250 Char"
+  },
+  {
+    "ui": "Customer Stakeholder Role",
+    "crmLabel": "Customer Stakeholder Role",
+    "field": "KPH_Customer_Stakeholder_Role__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Text 250 Char"
+  },
+  {
+    "ui": "Kite Owner (DRI) Name",
+    "crmLabel": "Kite Owner (DRI) Name",
+    "field": "KPH_Kite_Owner_DRI_Name__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Text 250 Char"
+  },
+  {
+    "ui": "Kite Owner (DRI) Role",
+    "crmLabel": "Kite Owner (DRI) Role",
+    "field": "KPH_Kite_Owner_DRI_Role__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Text 250 Char"
+  },
+  {
+    "ui": "Kite Collaborator Name",
+    "crmLabel": "Kite Collaborator Name",
+    "field": "KPH_Kite_Collaborator_Name__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Text 250 Char"
+  },
+  {
+    "ui": "Kite Collaborator Role",
+    "crmLabel": "Kite Collaborator Role",
+    "field": "KPH_Kite_Collaborator_Role__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Text 250 Char"
+  },
+  {
+    "ui": "Timing",
+    "crmLabel": "Timing",
+    "field": "KPH_Timing__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Datetime"
+  },
+  {
+    "ui": "Status",
+    "crmLabel": "Status",
+    "field": "KPH_Status__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Next Steps",
+    "crmLabel": "Next Steps",
+    "field": "KPH_Next_Steps__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Additional Notes",
+    "crmLabel": "Additional Notes",
+    "field": "KPH_Additional_Notes__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Long Text Area(5000)"
+  },
+  {
+    "ui": "Additional Notes updated date",
+    "crmLabel": "Additional Notes updated date",
+    "field": "KPH_Additional_Notes_updated_date__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Date"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Account Plan",
+    "field": "KPH_Account_Plan__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Lookup(Account Plan)"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Key_Wins_Key_Customer_Asks__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Actions_and_Critical_Next_Steps__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Milestones_and_Engagements__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Strategy__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Stakeholder_Map__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "Linked Strategy (Barrier / Opportunity)",
+    "crmLabel": "Strategy",
+    "field": "KPH_Strategy__c",
+    "object": "KPH_Payers_Barrier_Opportunities__c",
+    "type": "User-confirmed strategy link"
+  },
+  {
+    "ui": "Network Size",
+    "crmLabel": "Network Size",
+    "field": "KPH_Network_Size__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Network Porosity",
+    "crmLabel": "Network Porosity",
+    "field": "KPH_Network_Porosity__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "AE+ Value Prop Meeting Request Sent",
+    "crmLabel": "AE+ Value Prop Meeting Request Sent",
+    "field": "KPH_AE_Value_Prop_Meeting_Request_Sent__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "ValueProp Delivered Within 90 Days",
+    "crmLabel": "ValueProp Delivered Within 90 Days",
+    "field": "KPH_ValueProp_Delivered_Within_90_Days__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Picklist"
+  },
+  {
+    "ui": "Anito-Cel Update date",
+    "crmLabel": "Anito-Cel Update date",
+    "field": "KPH_Anito_Cel_Update_date__c",
+    "object": "Account_Plan_vod__c",
+    "type": "Date"
+  },
+  {
+    "ui": "CAR-T (Class)",
+    "crmLabel": "CAR-T (Class)",
+    "field": "KPH_CAR_T_Coverage_Policy_Mgmt_Notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area"
+  },
+  {
+    "ui": "CAR-T (Class) updated date",
+    "crmLabel": "CAR-T (Class)",
+    "field": "KPH_CAR_T_Covrge_Po_Mgmt_Notes_Updt_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Kite's Products",
+    "crmLabel": "Kite's Products",
+    "field": "KPH_Kite_Products_Cov_Mgmt_Notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area"
+  },
+  {
+    "ui": "Kite's Products updated date",
+    "crmLabel": "Kite's Products",
+    "field": "KPH_Kite_Products_Cov_Mgmt_Updt_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Competitors (BCMA/CPRC5D biospecifics; competitor CAR-T)",
+    "crmLabel": "Competitors (BCMA/CPRC5D biospecifics; competitor CAR-T)",
+    "field": "KPH_Competitor_Cov_Policy_Mgmt_Notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area"
+  },
+  {
+    "ui": "Competitors (BCMA/CPRC5D biospecifics; competitor CAR-T) updated date",
+    "crmLabel": "Competitors (BCMA/CPRC5D biospecifics; competitor CAR-T)",
+    "field": "KPH_Copetitor_Cov_Policy_Mgt_nts_Udt_dat__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Kite's Products Pathway",
+    "crmLabel": "Kite's Products Pathway",
+    "field": "KPH_Kite_s_products_Pathway_notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area"
+  },
+  {
+    "ui": "Kite's Products Pathway updated date",
+    "crmLabel": "Kite's Products Pathway",
+    "field": "KPH_Kite_Products_Pathway_Updt_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Review Process",
+    "crmLabel": "Review Process",
+    "field": "KPH_Review_Process_CG_T_Notes__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Long Text Area"
+  },
+  {
+    "ui": "Review Process updated date",
+    "crmLabel": "Review Process",
+    "field": "KPH_Review_Process_CG_T_Notes_Updt_date__c",
+    "object": "KPH_Account_Landscape__c",
+    "type": "Date"
+  },
+  {
+    "ui": "Account Objective deletion flag",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Account_Objective__c",
+    "type": "Checkbox"
+  },
+  {
+    "ui": "Tactics and Resources deletion flag",
+    "crmLabel": "Is Deleted",
+    "field": "KPH_Is_Deleted__c",
+    "object": "KPH_Tactics_Resource__c",
+    "type": "Checkbox"
+  }
+]
